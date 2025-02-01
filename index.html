@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Магазин</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        .product-card { border: 1px solid #ccc; padding: 10px; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div id="products">
+        <div class="product-card">
+            <h3>Набор Space 48 шт🪐</h3>
+            <p>Цена: 700.000 сумов.</p>
+            <button onclick="addToCart('Набор 48 шт🪐')">Добавить в корзину</button>
+        </div>
+    </div>
+    <button onclick="openCart()">Корзина</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product">
+            <img src="product.jpg" alt="Товар">
+            <h3>Название товара</h3>
+            <p>Описание товара</p>
+            <button class="buy-btn">Купить</button>
+        </div>
+    </div>
+</body>
+</html>
